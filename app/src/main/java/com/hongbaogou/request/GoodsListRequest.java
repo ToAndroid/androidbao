@@ -16,10 +16,10 @@ import com.hongbaogou.utils.RequestManager;
 /**
  * Created by Administrator on 2015/11/27.
  */
-public class GoodsListRequest extends BaseRequest{
+public class GoodsListRequest extends BaseRequest2{
 
     private RequestQueue mQueue;
-    private String urlRequest = "index/get_type_goods_list?";
+    private String urlRequest = "index/index?";
 
     public void goodsListRequest(String type, int pageNo, final OnGoodsListener onGoodsListener) {
         mQueue = RequestManager.getRequestQueue();
